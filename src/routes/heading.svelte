@@ -8,18 +8,8 @@
 
 <AppBar>
 	<svelte:fragment slot="lead">
-		<a href="/">Your Enterprise</a>
-	</svelte:fragment>
-
-	<svelte:fragment slot="trail">
-		{#if $user}
-			<form method="POST" use:enhance>
-				<button type="submit">Sign out</button>
-			</form>
-		{:else}
-			<a href="/login">Log in</a>
-			<a href="/register">Register</a>
-		{/if}
+		<a href="/"></a>
+	
 
 		<LightSwitch />
 	</svelte:fragment>

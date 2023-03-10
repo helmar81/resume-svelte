@@ -18,6 +18,7 @@
 		"@playwright/test": "^1.28.1",
 		"@skeletonlabs/skeleton": "^0.132.5",
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-netlify": "^2.0.6",
 		"@sveltejs/kit": "^1.5.0",
 		"@tailwindcss/forms": "^0.5.3",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
@@ -44,6 +45,7 @@
 		"@lucia-auth/adapter-prisma": "^0.5.3",
 		"@lucia-auth/sveltekit": "^0.6.9",
 		"@prisma/client": "^4.11.0",
+		"firebase-tools": "^11.24.1",
 		"lucia-auth": "^0.8.0"
 	}
 }
