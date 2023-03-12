@@ -1,3 +1,7 @@
+<script>
+import img from '$lib/images/meLaptop.jpg';
+</script>
+
 <section>
 <div class="mt-16 grid justify-items-center text-center">
 	<h1>
@@ -10,12 +14,17 @@
 
 	<span class="my-16 block max-w-3xl text-2xl text-gray-400">
 		to my Resume
+
+
+
 	</span>
 
+	<!-- svelte-ignore a11y-img-redundant-alt -->
 	<img
-		class="h-80 w-80 rounded-full object-cover"
-		src="https://haha.business/business.jpg"
-		alt="Business person laughing"
+		class="h-80 w-81 rounded-full object-cover"
+		src={img} alt="Image" />
+		
+		
 	/>
 </div>
 
@@ -27,7 +36,7 @@
 
 
 
-	  <h1 class="py-8 px-4 border bg-indigo-200 border-indigo-900 shadow-lg text-justify">German native speaker fluent in English with 3+ decades of work experience</h1>
+	  <h3 class="py-8 px-4 border bg-indigo-200 border-indigo-900 shadow-lg text-justify text-slate-100">German native speaker fluent in English with 3+ decades of work experience</h3>
 	  
 	  <ul class="text-2xl text-center my-8 uppercase ">
 
@@ -218,7 +227,15 @@ h1 {
 	color:gray;
 	user-select: auto;
 	text-align: justify;
-	margin: 1px;
+	margin: 5px;
+}
+
+h2 {
+	
+	color:rgb(77, 77, 202);
+	user-select: auto;
+	text-align: justify;
+	margin: 5px;
 }
 
 .welcome {

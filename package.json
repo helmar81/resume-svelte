@@ -1,6 +1,6 @@
 {
 	"type": "module",
-	"name": "enterprise-stack",
+	"name": "resume-svelte",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {

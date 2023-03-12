@@ -7,6 +7,8 @@
 	import '@skeletonlabs/skeleton/styles/all.css'
 	import '../app.postcss'
 
+	import img from '$lib/images/meLaptop.jpg';
+
 	handleSession(page)
 </script>
 

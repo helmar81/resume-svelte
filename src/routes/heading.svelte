@@ -6,6 +6,7 @@
 	const user = getUser()
 </script>
 
+<!-- svelte-ignore a11y-missing-content -->
 <AppBar>
 	<svelte:fragment slot="lead">
 		<a href="/"></a>
