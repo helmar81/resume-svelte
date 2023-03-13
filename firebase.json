@@ -1,16 +1,27 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/apps/frontend",
     "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+      "**/.firebase/**"
     ],
+    "cleanUrls": true,
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "function": "handler",
       }
     ]
-  }
+  },
+  "functions": [
+    //api is added here to present how a backend service might be integrated
+    {
+      "codebase": "api",
+      "source": "dist/apps/api",
+      "runtime": "nodejs16"
+    },
+    {
+      "codebase": "frontend",
+      "source": "dist/apps/frontend",
+    }
+  ]
 }

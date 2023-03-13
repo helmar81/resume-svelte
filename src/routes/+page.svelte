@@ -14,16 +14,12 @@ import img from '$lib/images/meLaptop.jpg';
 
 	<span class="my-16 block max-w-3xl text-2xl text-gray-400">
 		to my Resume
-
-
-
 	</span>
 
 	<!-- svelte-ignore a11y-img-redundant-alt -->
 	<img
 		class="h-80 w-81 rounded-full object-cover"
-		src={img} alt="Image" />
-		
+		src={img} alt="Image" />	
 		
 	/>
 </div>

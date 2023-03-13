@@ -2,7 +2,7 @@
 	"type": "module",
 	"name": "resume-svelte",
 	"version": "0.0.1",
-	"private": true,
+	"private": false,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -18,7 +18,7 @@
 		"@playwright/test": "^1.28.1",
 		"@skeletonlabs/skeleton": "^0.132.5",
 		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/adapter-netlify": "^2.0.6",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.88",
 		"@sveltejs/kit": "^1.5.0",
 		"@tailwindcss/forms": "^0.5.3",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
@@ -27,6 +27,7 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"netlify-cli": "^2.12.0",
 		"postcss": "^8.4.14",
 		"postcss-load-config": "^4.0.1",
 		"prettier": "^2.8.4",
@@ -46,6 +47,7 @@
 		"@lucia-auth/sveltekit": "^0.6.9",
 		"@prisma/client": "^4.11.0",
 		"firebase-tools": "^11.24.1",
-		"lucia-auth": "^0.8.0"
+		"lucia-auth": "^0.8.0",
+		"sveltekit-adapter-firebase": "^0.1.13"
 	}
 }
